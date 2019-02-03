@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SwiftRangeControl_Example' do
+  pod 'SwiftRangeControl', :path => '../'
+
+  target 'SwiftRangeControl_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
