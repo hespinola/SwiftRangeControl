@@ -1,0 +1,6 @@
+framework module SwiftRangeControl {
+  umbrella header "SwiftRangeControl-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,5 +1,4 @@
 import XCTest
-import SwiftRangeControl
 
 class Tests: XCTestCase {
     

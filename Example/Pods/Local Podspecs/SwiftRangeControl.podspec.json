@@ -1,0 +1,23 @@
+{
+  "name": "SwiftRangeControl",
+  "version": "1.0.0",
+  "summary": "Range Slider Control based on UIControl",
+  "homepage": "https://github.com/hespinola/SwiftRangeControl",
+  "license": {
+    "type": "GNU",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Humberto Espinola": "h.espinola@inventivapp.com"
+  },
+  "source": {
+    "git": "https://github.com/hespinola/SwiftRangeControl.git",
+    "tag": "1.0.0"
+  },
+  "social_media_url": "https://twitter.com/_hespinola",
+  "swift_version": "4.2",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SwiftRangeControl/**/*"
+}

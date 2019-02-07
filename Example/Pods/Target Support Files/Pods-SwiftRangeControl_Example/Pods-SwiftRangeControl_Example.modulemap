@@ -1,0 +1,6 @@
+framework module Pods_SwiftRangeControl_Example {
+  umbrella header "Pods-SwiftRangeControl_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

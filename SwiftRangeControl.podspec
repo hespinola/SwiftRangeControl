@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftRangeControl'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SwiftRangeControl.'
+  s.version          = '1.0.0'
+  s.summary          = 'Range Slider Control based on UIControl'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,20 +17,17 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/Humberto Espinola/SwiftRangeControl'
+  s.homepage         = 'https://github.com/hespinola/SwiftRangeControl'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Humberto Espinola' => 'h.espinola@icloud.com' }
-  s.source           = { :git => 'https://github.com/Humberto Espinola/SwiftRangeControl.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.license          = { :type => 'GNU', :file => 'LICENSE' }
+  s.author           = { 'Humberto Espinola' => 'h.espinola@inventivapp.com' }
+  s.source           = { :git => 'https://github.com/hespinola/SwiftRangeControl.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/_hespinola'
+  s.swift_version    = '4.2'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SwiftRangeControl/Classes/**/*'
+  s.source_files = 'SwiftRangeControl/**/*'
   
   # s.resource_bundles = {
   #   'SwiftRangeControl' => ['SwiftRangeControl/Assets/*.png']

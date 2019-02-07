@@ -1,0 +1,16 @@
+PODS:
+  - SwiftRangeControl (1.0.0)
+
+DEPENDENCIES:
+  - SwiftRangeControl (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftRangeControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwiftRangeControl: e0d4c5122515d63d51ee71384ba73533230c7086
+
+PODFILE CHECKSUM: 75c37843de97f0324507bcfd11792a4c3e93e4be
+
+COCOAPODS: 1.5.3

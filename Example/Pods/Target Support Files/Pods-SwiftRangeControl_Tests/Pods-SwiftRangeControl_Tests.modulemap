@@ -1,0 +1,6 @@
+framework module Pods_SwiftRangeControl_Tests {
+  umbrella header "Pods-SwiftRangeControl_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
