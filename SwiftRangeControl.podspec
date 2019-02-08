@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftRangeControl'
-  s.version          = '1.0.0'
+  s.version          = '0.1'
   s.summary          = 'Range Slider Control based on UIControl'
 
 # This description is used to generate tags and improve search results.
