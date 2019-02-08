@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'GNU', :file => 'LICENSE' }
   s.author           = { 'Humberto Espinola' => 'h.espinola@inventivapp.com' }
-  s.source           = { :git => 'https://github.com/hespinola/SwiftRangeControl.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/hespinola/SwiftRangeControl.git', :tag => s.version }
   s.social_media_url = 'https://twitter.com/_hespinola'
   s.swift_version    = '4.2'
 
@@ -34,6 +34,7 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
+  s.module_name = 'SwiftRangeControl'
 end
