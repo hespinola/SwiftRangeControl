@@ -21,11 +21,8 @@ SwiftRangeControl is a simple and customizable control written in Swift.
 Using Storyboards:
 
 * Create a view and set `RangeSlider` as the Custom Class
-![](https://github.com/hespinola/SwiftRangeControl/blob/master/Screenshots/screenshot-2.png)
 
 * Go to `Attributes Inspector` and give the look and feel that better suits you.
-
-![](https://github.com/hespinola/SwiftRangeControl/blob/master/Screenshots/screenshot-3.png)
 
 
 ## Example
