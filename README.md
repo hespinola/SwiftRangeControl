@@ -5,6 +5,29 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftRangeControl.svg?style=flat)](https://cocoapods.org/pods/SwiftRangeControl)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftRangeControl.svg?style=flat)](https://cocoapods.org/pods/SwiftRangeControl)
 
+## Introduction
+
+SwiftRangeControl is a simple and customizable control written in Swift.
+
+![](https://github.com/hespinola/SwiftRangeControl/blob/master/Screenshots/screenshot-1.png)
+
+## Features
+
+- [x] Easy to use
+- [x] Highly customizable
+- [x] Great performance
+
+## Basic Usage
+Using Storyboards:
+
+* Create a view and set `RangeSlider` as the Custom Class
+![](https://github.com/hespinola/SwiftRangeControl/blob/master/Screenshots/screenshot-2.png)
+
+* Go to `Attributes Inspector` and give the look and feel that better suits you.
+
+![](https://github.com/hespinola/SwiftRangeControl/blob/master/Screenshots/screenshot-3.png)
+
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -27,6 +50,8 @@ pod 'SwiftRangeControl'
 ## Author
 
 Humberto Espinola, [Hire me](h.espinola@icloud.com)
+
+Special thanks to this [post.](https://www.raywenderlich.com/2297-how-to-make-a-custom-control-tutorial-a-reusable-slider)
 
 ## License
 

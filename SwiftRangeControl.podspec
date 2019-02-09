@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.homepage         = 'https://github.com/hespinola/SwiftRangeControl'
-  s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  # s.screenshots      = 'https://github.com/hespinola/SwiftRangeControl/blob/master/Screenshots/screenshot-1.png'
   s.license          = { :type => 'GNU', :file => 'LICENSE' }
   s.author           = { 'Humberto Espinola' => 'h.espinola@inventivapp.com' }
   s.source           = { :git => 'https://github.com/hespinola/SwiftRangeControl.git', :tag => s.version }
