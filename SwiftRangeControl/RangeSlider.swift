@@ -18,33 +18,36 @@ open class RangeSlider: UIControl {
     
     // MARK: - Class Properties
     
-    /// Minimum value for the slider, default is 0.0
+    /// Minimum value for the control, default is 0.0
     @IBInspectable open var minimumValue: Double = 0.0 {
         didSet {
             updateLayers()
         }
     }
     
-    /// Maximum value for the slider, default is 10.0
+    /// Maximum value for the control, default is 10.0
     @IBInspectable open var maximumValue: Double = 10.0 {
         didSet {
             updateLayers()
         }
     }
     
-    /// Lower control value, default is 1.0
+    /// Lower control current value, default is 1.0
     @IBInspectable open var lowerValue: Double = 1.0 {
         didSet {
             updateLayers()
         }
     }
     
-    /// Upper control value, default is 9.0
+    /// Upper control current value, default is 9.0
     @IBInspectable open var upperValue: Double = 9.0 {
         didSet {
             updateLayers()
         }
     }
+    
+    /// Define if the control should send notifications when the user has finished dragging, default is true
+    @IBInspectable open var notifyContinuously: Bool = true
     
     private var previousLocation = CGPoint()
     
@@ -207,7 +210,9 @@ open class RangeSlider: UIControl {
             upperValue = boundValue(upperValue, lowerValue, maximumValue)
         }
         
-        sendActions(for: .valueChanged)
+        if notifyContinuously {
+            sendActions(for: .valueChanged)
+        }
         
         return true
     }
@@ -215,6 +220,10 @@ open class RangeSlider: UIControl {
     final override public func endTracking(_ touch: UITouch?, with event: UIEvent?) {
         lowerControlLayer.highlighted = false
         upperControlLayer.highlighted = false
+        
+        if !notifyContinuously {
+            sendActions(for: .valueChanged)
+        }
     }
     
     // MARK: - Class Methods

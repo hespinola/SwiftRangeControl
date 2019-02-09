@@ -26,7 +26,7 @@ pod 'SwiftRangeControl'
 
 ## Author
 
-Humberto Espinola, h.espinola@icloud.com
+Humberto Espinola, [Hire me](h.espinola@icloud.com)
 
 ## License
 

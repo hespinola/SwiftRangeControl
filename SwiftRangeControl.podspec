@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwiftRangeControl'
-  s.version          = '0.1'
+  s.version          = '0.2'
   s.summary          = 'Range Slider Control based on UIControl'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.homepage         = 'https://github.com/hespinola/SwiftRangeControl'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'GNU', :file => 'LICENSE' }
   s.author           = { 'Humberto Espinola' => 'h.espinola@inventivapp.com' }
   s.source           = { :git => 'https://github.com/hespinola/SwiftRangeControl.git', :tag => s.version }
